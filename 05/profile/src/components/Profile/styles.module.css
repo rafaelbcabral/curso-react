@@ -1,0 +1,38 @@
+.container {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  height: 35rem;
+  margin: 2rem auto;
+  padding: 4rem 0rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  border-radius: 5rem;
+  max-width: 8rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.line {
+  width: 25rem;
+  background-color: rgb(36, 113, 255);
+  height: 1px;
+  border: none; /* <- ESSENCIAL pra <hr> */
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 2%;
+}
+
+
+

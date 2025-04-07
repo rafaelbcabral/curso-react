@@ -1,0 +1,36 @@
+.app {
+  background-color: #d7e1e7;
+  border-radius: 1rem;
+  display: flex;
+  gap: 4rem;
+  height: 30rem;
+  width: 50rem;
+  padding: 5% 5%;
+  margin: 5%;
+  align-items: flex-start;
+  font-family: sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.botao{
+  border: 0;
+  border-radius: 8px;
+  background-color: #000;
+  color: #FFF;
+  padding: 12px;
+  cursor: pointer;
+  width: fit-content;
+  transition: .3s;
+  
+}
+
+.botao:hover{
+  transition: .5s;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+}

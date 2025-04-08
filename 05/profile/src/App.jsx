@@ -1,5 +1,3 @@
-// import swPosterImg from "./assets/sw-poster.jpg"
-import Button from "./components/Button"
 import Profile from "./components/Profile"
 import Avatar from "./assets/avatar.jpeg"
 

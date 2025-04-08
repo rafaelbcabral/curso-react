@@ -1,0 +1,12 @@
+.wrapper {
+  font-size: 1rem;
+  border-bottom: .1rem solid rgba(66, 140, 209, 0.4);
+  padding: 0.5rem;
+  min-height: 2.5rem;
+  width: 25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

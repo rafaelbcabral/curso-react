@@ -5,6 +5,12 @@ export default function App(){
   let variable = 0
   const [state, setState] = useState(0)
   const ref = useRef()
+  const inputRef = useRef(null);
+
+  const handleClick = () => {
+    // Foca o input quando o botão é clicado
+    inputRef.current.focus();
+  };
 
   const showValues = () => {
     alert(`
@@ -28,6 +34,13 @@ export default function App(){
       <button onClick={() => setState(state => state+1)}>Aumentar state</button>
       <hr />
       <button onClick={showValues}>Exibir valores</button>
+      <hr />
+      <div style={{ padding: '20px' }}>
+      <h2>Exemplo de useRef</h2>
+      <input ref={inputRef} type="text" placeholder="Clique no botão para focar aqui" />
+      <br /><br />
+      <button onClick={handleClick}>Focar no input</button>
+      </div>
     </div>
   )
 }
